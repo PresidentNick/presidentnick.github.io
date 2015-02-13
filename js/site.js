@@ -26,15 +26,6 @@ $(document).ready(function() {
     buildSnippets();
   }
 
-function scrollToAnchor(aid){
-    var aTag = $("a[name='"+ aid +"']");
-    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
-}
-
-$("#about").click(function() {
-   scrollToAnchor('about');
-});
-
   function smoothScroll(e) {
     e.preventDefault();
     $('a[href*=#]:not([href=#])').click(function() {
