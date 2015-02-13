@@ -35,7 +35,7 @@ $(document).ready(function() {
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top-40
-        }, 1000);
+        }, 200);
         return false;
       }
     }
@@ -56,11 +56,11 @@ $(document).ready(function() {
     }
   }
 
-  $("#button").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#elementtoScrollToID").offset().top
-    }, 2000);
-});
+//   $("#button").click(function() {
+//     $('html, body').animate({
+//         scrollTop: $("#elementtoScrollToID").offset().top
+//     }, 2000);
+// });
 
   function resize() {
     $body.removeClass('has-docked-nav')
