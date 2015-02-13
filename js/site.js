@@ -55,13 +55,7 @@ $(document).ready(function() {
       $('.popover').removeClass('open')
     }
   }
-
-//   $("#button").click(function() {
-//     $('html, body').animate({
-//         scrollTop: $("#elementtoScrollToID").offset().top
-//     }, 2000);
-// });
-
+  
   function resize() {
     $body.removeClass('has-docked-nav')
     navOffsetTop = $nav.offset().top
