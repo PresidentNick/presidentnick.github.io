@@ -120,37 +120,178 @@ document.write("<a title='Send me an Email' style='color: inherit;' target='_bla
     <!-- About Nick -->
     <div class="docs-section" id="about">
       <h6 class="docs-header">About Nick</h6>
-      <p>I am a 3rd year student at the University of Texas at Austin studying Computer Science. I'm currently learning how to create
+      <p>I am a 4th year student at the University of Texas at Austin studying Computer Science. I was born in Miami and I lived there
+      until I was about 10. Then I moved to Brownsville, TX and went 
+      to middle school and high school there. After graduated high 
+      school in 2012, I applied to the University of Texas at Austin. 
+      I've been living in Austin ever since. I love playing music and 
+      I'm a member of the UT Pep Band as well as the UT Steel Pan
+      Ensemble. I love biking all over Austin. You can usually find
+      me biking around town on the weekends with my fiance, Barbara. 
+      I also love to code, and I made my career out of it.  
+      <!-- I'm currently learning how to create
           responsive websites by using the <a href="http://getskeleton.com">skeleton framework</a>, which is what you're seeing right now.
           I'm looking to change my <a href="index_not_responsive.html">old website</a> into something more professional looking
           (although the konami code can still be entered! but not if you have epilepsy, please don't), as well as being more responsive
-          so that it can be viewed on a variety of devices. This site is currently a work in progress. Stay tuned for more changes!!
+          so that it can be viewed on a variety of devices. This site is currently a work in progress. Stay tuned for more changes!! -->
       </p>
     </div>
     <div class="docs-section" id="work">
       <h6 class="docs-header">Relevant work experience</h6>
-      <p>I currently work as python developer contractor with SOALTech Technologies LLC. I am currently contracted to a travel agency, 
-      and my current project with them involves standardizing several different sources of where they get their rates from.
-      I created a web app with Django and Python that processes several different types of rate files and outputs to one 
-      standard format.</p><p>I also help a professor maintain and design
-      his NSF funded website once a week. I've written code that automates the display page of dissertations. Users of the site submit 
+      <b><u>SoalTech LLC</u></b>
+      <p>I currently work as python developer contractor with SOALTech Technologies LLC. I am currently contracted to a travel agency.</p>
+      <b><u>The University of Texas at Austin Department of Anthropology</u></b>
+      <p>I also help an anthropology professor at UT maintain and design
+      his NSF funded website once a week during the Fall and Spring semesters. <!-- I've written code that automates the display page of dissertations. Users of the site submit 
       their dissertations. Before, an HTML table containing the dissertations would have to be manually updated to add a new dissertation.
       After my changes, any dissertation added to the database automattically displayed without any interaction from the development team.
       I've also helped resolve issues on the projects github page. I contribute to the project by testing and documenting the set up 
       of a development environment in attempts to make is stadard for any developer to get a version of the site up and running quickly
-      on their machine to make local changes.
+      on their machine to make local changes. -->
       </p>
+      <b><u>Caesars Entertainment Corporation</u></b><p>In the summer of 2014, I interned at Caesars Entertainment Corporation in Las Vegas, Nevada in their IT department as a software developer.</p>
     </div>
     <div class="docs-section" id="projects">
       <h6 class="docs-header">My projects</h6>
-      <p>I will update this section soon!!
+      <b><u>Perx.com</u></b>
+      <p>
+      <ul>
+        <li>
+          <b>Cruise Pricing Importer</b>
+          <ul>
+            <li>
+              Perx receives pricing feeds from various cruise lines to 
+              keey their shopping system rates as fresh as possible. 
+              These pricing feeds don't follow a standard format and 
+              even change the format sometimes. I wrote a django
+              website that can handle different vendor feeds and
+              process them according to their format. The site supports
+              automated feed importing and manual feed importing. I 
+              built in a dashboard so that the people that import 
+              cruise rates can easily see if there are any errors with
+              the imports.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <b>Roadshow Kiosk</b>
+          <ul>
+            <li>
+              The marketing department at Perx goes to tradeshows/roadshows 
+              at airports to get people to sign up for the website.
+              Traditionally, they ask people to fill out a paper form
+              with their information and then they enter the customer
+              info in the customer database manually when they return 
+              to the office. In order to modernize this process, I 
+              wrote a flask application that can work completely 
+              offline (these tradeshows hardly have internet or power
+              access). This application was deployed on chromebooks 
+              that were put in developer mode to cut hardware costs. 
+              Instead of manually entering the data, now the process 
+              is automated.
+            </li>
+          </ul>
+          <li>
+            <b>Image Scraper</b>
+            <ul>
+              <li>
+                In order to prepare for the launch of the new perx.com 
+                site, developers needed to know what image assets they 
+                had to use in the site. I wrote a python script that 
+                recursively searches a directory and all its 
+                sub-directories for images. The script outputs image
+                metadata like path, dimension, and resolution to a csv 
+                file so that the developers could get a comprehensive 
+                snapshot of all the images they have instead of 
+                manually searching for them.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <b>User Tracking</b>
+            <ul>
+              <li>
+                In order to get a more detailed view of how customers 
+                will use the new perx.com site, I wrote a django 
+                middleware that can track user and session metadata. 
+                Later this information can be used for data 
+                visualization.
+              </li>
+            </ul>
+          </li>
+        </li>
+      </ul>
+      </p>
+      <b><u>The University of Texas at Austin Department of Anthropology
+      </u></b>
+      <p>
+        <ul>
+          <li>
+            <b>Automated Repository Installation</b>
+            <ul>
+              <li>
+                As the paleocore.org website started getting more 
+                features and needing more dependencies, it became more 
+                tedious to install all the requirements and make sure
+                all the database connections are working whenever 
+                someone wanted to contribute to the site. I wrote a 
+                Python script that automated that installation process.
+                That way, deploying a new local instance of the 
+                repository became very easy.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <b>Django Template Implementation</b>
+            <ul>
+              <li>
+                Every time a new dissertation was added to the 
+                paleoanthro.org database, someone would go in and 
+                manually edit the dissertation HTML to reflect the new entry. I wrote a template using the django templating
+                language so that the HTML would be automatically 
+                generated on the fly to reflect all the dissertations
+                in the database.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </p>
+      <b><u>Caesars Entertainment Corporation</u></b>
+      <p>
+        <ul>
+          <li>
+            <b>Social Media Mention Tracking</b>
+            <ul>
+              <li>
+                I wrote Python scripts with facebook and twitter 
+                libraries to track users whenever a Caesars brand was 
+                mentioned. This information was plotted on a map.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </p>
+      <b><u>Google</u></b>
+      <p>
+        <ul>
+          <li>
+            <b>Extreme Games</b>
+            <ul>
+              <li>
+                By working with a team of me and two other people, we
+                wrote a website that had two games. One was rock, 
+                paper, scissors with 15 different options. The other
+                game was mad libs. The site had leadboards to track 
+                user scores.
+              </li>
+            </ul>
+          </li>
+        </ul>
       </p>
     </div>
     <div class="docs-section" id="disclaimer">
       <h6 class="docs-header">Coming soon!</h6>
-      <p><ul></ul><li>update projects section</li><li>maybe add the annoying button and the
-          background switcher
-      </li></ul>
+      <p><ul></ul><li>add screenshots and links to projects section</li></ul>
       </p>
     </div>
   </div>
