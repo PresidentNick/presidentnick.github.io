@@ -307,13 +307,24 @@ document.write("<a title='Send me an Email' style='color: inherit;' target='_bla
         </ul>
       </p>
     </div>
-    <div class="docs-section" id="disclaimer">
+    <div class="docs-section">
       <h6 class="docs-header">Coming soon!</h6>
-      <p><ul></ul><li>add screenshots and links to projects section</li></ul>
+      <p><ul>
+          <li>add screenshots and links to projects section</li>
+        </ul>
       </p>
+    </div>
+    <div class="docs-section">
+      Site last edited on <span id="updated"></span>
     </div>
   </div>
 
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+   document.getElementById("updated").innerHTML = document.lastModified;
+}, false);
+</script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <!-- Start of StatCounter Code for Default Guide -->
