@@ -2,7 +2,7 @@
 title: Nick's CS Blog
 email: nickpereira@utexas.edu
 description: > # this means to ignore newlines until "baseurl:"
-  This is Nick Pereira's OOP blog. Here you will find weekly blog posts describing his experience in his OOP and SWE classes.
+  This is Nick Pereira's CS blog. Here you will find weekly blog posts describing his experience in his OOP and SWE classes.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://nickpereira.me/" # the base hostname & protocol for your site
 github_username:  PresidentNick
