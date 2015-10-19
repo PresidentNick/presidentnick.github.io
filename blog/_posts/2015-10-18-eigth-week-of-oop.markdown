@@ -16,4 +16,4 @@ a decision.
 
 ###Tip of the Week:
 When creating a virtual server on rackspace, make sure to secure your environment by not allowing password logins, and using ssh keys to log in. Also disable the root user, and create a 
-non-root user for yourself.
+non-root user for yourself. 
