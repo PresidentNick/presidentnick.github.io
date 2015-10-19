@@ -14,6 +14,7 @@ I though I was going to do better on my swe exam since it was in Python, but tha
 getting a bad test score. Unfortunately I was not able to give a binary answer, but I suggested going to office hours to talk to professor Downing. Hopefully that can help with making 
 a decision.
 
+
 ###Tip of the Week:
 When creating a virtual server on rackspace, make sure to secure your environment by not allowing password logins, and using ssh keys to log in. Also disable the root user, and create a 
 non-root user for yourself. 
